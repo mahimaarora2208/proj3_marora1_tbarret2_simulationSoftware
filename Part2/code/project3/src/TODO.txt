@@ -1,0 +1,26 @@
+- Task Not finished yet
++ Finished Task
+
+TODO
+- Change user input
+  + start: x y theta
+  + goal: x y 
+  + wheel rpms: two possible values for the wheel rpms
+  + clearance value
++ Integrate following parameters:
+  + robot diameter
+  + wheel distance
+  + wheel radius
++ New action set:
+  + each wheel can spin at either 0, MIN_RPM, or MAX_RPM
+  + MIN/MAX are the values the user defined above
+  + RPMs must be positive
++ Remove the step size from user input
++ Do forward kinematics to find new position of the robot
+  + given the wheel RPMs
+  + he gives us this :)
++ The time step will be constant
+  + I guess it's technically constant...
+- Make sure our units are correct
+  - how much does 1 pixel represent?
+  - based on that, are our motor inputs reasonable?  
