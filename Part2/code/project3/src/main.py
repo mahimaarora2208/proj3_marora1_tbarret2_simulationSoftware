@@ -81,7 +81,7 @@ for val in path:
 
 x = range(0, len(new_list), STEP_SIZE)
 for n in x:
-    controller.go_to_goal(4,new_list[n][0], new_list[n][1])
+    controller.go_to_goal(new_list[n][0], new_list[n][1])
     print('POINTS TAKEN FOR REACHING GOAL: ', (new_list[n][0], new_list[n][1]))
     time.sleep(5)
 
